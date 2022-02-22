@@ -1,0 +1,270 @@
+/* defoult css */
+img{
+    max-width: 100%;
+}
+.p, .span, .a,{
+ font-family: "Roboto", sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,{
+ 
+    font-family: "Rubik", sans-serif;
+    
+}
+
+
+.gry{
+    background-color: #F9FAFB;
+}
+
+/* header section start */
+.image{}
+.image img{
+    width: 86px;
+}
+.menu-list{
+    margin: auto;
+    padding-left: 0;
+}
+.menu-list li{
+    display: inline-block;
+}
+.menu-list li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 19px 26px;
+    font-size: 18px;
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    margin-right: 17px;
+    font-weight: 600;
+}
+.menu-list li a:hover{
+    color:rgb(14, 14, 158);
+}
+.menu-list li a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    width: 0%;
+    height: 3%;
+    z-index: -1;
+    transition: .5s;
+}
+
+.menu-list li a:hover::after{
+width: 100%;
+}
+
+
+
+
+
+
+.button a{
+    background: white;
+    display: inline-block;
+    padding: 12px 39px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;    
+    color: rgb(3, 3, 3) !important;
+    transition: .5s;
+}
+.button a:hover{
+    color: white !important;
+}
+.button a::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgb(4, 4, 24);
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+
+  
+    border-radius: 39px;
+    transition: .5s;
+}
+.button a:hover::after{
+    width: 100%;
+   
+}
+/* header section end */
+
+
+/* banner section css start */
+.banner {
+    background: #EDF6FF;
+    padding: 82px 0;
+    overflow: hidden;
+    position: relative;
+}
+.left-side-banner-content{}
+.left-side-banner-content h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.left-side-banner-content p{
+    font-size: 22px;
+    margin: 36px 0;
+    font-weight: 500;
+    color: #5c5c5c;
+}
+
+.button-1{}
+.button-1 a {
+    background: #429CE3;
+    color: white !important;
+}
+.image-1{
+    
+}
+.image-1 img {
+    border-radius: 50%;
+    height: 600px;
+    position: absolute;
+    top: -95px;
+    right: -71px;
+    width: 600px;
+}
+/* banner section css end */
+
+
+/* about section css start */
+
+.about-header h6 {
+    font-size: 20px;
+    color: #afaaaa;
+}
+.about-header h1{
+    font-size: 40px;
+    font-weight: 500;
+    width: 50%;
+    line-height: 53px;
+    text-transform: capitalize;
+    z-index: 1;
+    position: relative;
+}
+
+.about-header h1::after {
+    content: "";
+    position: absolute;
+    bottom: -13%;
+    left: 0%;
+    background-color: rgb(159 159 167);
+    height: 5%;
+    width: 15%;
+    z-index: -1;
+}
+
+
+.about-header p{
+    font-size: 19px;
+    width: 47%;
+    margin: 22px 0;
+}
+
+.about-inner{
+    text-align: center;
+    display: flex;
+    padding: 22px;
+    justify-content: space-between;
+   
+}
+.about-item{
+    
+    padding: 23px;
+   background-color: #F9FCFF;
+  width: 32%;
+}
+.about-item h3{
+    opacity: .8;
+    width: 82%;
+    font-size: 23px;
+    text-align: left;
+}
+.product{
+    text-align: left;
+    padding: 11px 0;
+ 
+}
+
+.product i::after {
+    content: "";
+    position: absolute;
+    bottom: -13%;
+    left: 0%;
+    background-color: rgb(57 57 189);
+    height: 3%;
+    width: 100%;
+    z-index: -1;
+}
+
+.product i{
+    background: #5252F0;
+    font-size: 33px;
+    color: white;
+    height: 65px;
+    width: 60px;
+    line-height: 65px;
+    border-radius: 32px 32px 36px 0px;
+    text-align: center;  
+     position: relative;
+    z-index: 1;
+}
+.about-item p{
+    font-size: 18px;
+    margin: 11px 0;
+    width: 57%;
+    text-align: left;
+    color: #767676;
+}
+/* about section css end */
+
+
+
+
+/* footer banner start */
+
+.footer-banner {
+    background: linear-gradient(rgb(12 16 20 / 50%),rgb(39 47 102 / 50%)), url(./img-class/video-bg.jpg) top center no-repeat;
+    padding: 158px 0;
+}
+.footer-content{
+    color: white;
+}
+.footer-content h3{
+    color: white;
+    font-size: 27px;
+    text-transform: capitalize;
+}
+.footer-content h1{
+    font-size: 59px;
+    font-weight: 400;
+    padding: 22px 0;
+    text-transform: uppercase;
+}
+.footer-content p{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+.footer-logo{}
+.footer-logo a i{
+    background: #ffffffd9;
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    font-size: 35px;
+    line-height: 62px;
+    margin-top: 36px;
+}
+
+/* footer banner endd */
